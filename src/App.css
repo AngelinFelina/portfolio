@@ -1,0 +1,25 @@
+.portfolio-footer {
+  width: 100%;
+  padding: 2.5rem 2rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.portfolio-footer p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  font-family: var(--font-header);
+}
+
+.footer-subtext {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
